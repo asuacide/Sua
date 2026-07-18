@@ -161,9 +161,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "macaroon",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "macaroons",
       // Currency symbol shown in balances.
       symbol: "$",
     },
