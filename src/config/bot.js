@@ -169,7 +169,7 @@ export const botConfig = {
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 67,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 67000000000000000000,
@@ -188,8 +188,8 @@ export const botConfig = {
     // Command cooldowns (milliseconds).
     cooldowns: {
       daily: 24 * 60 * 60 * 1000,
-      work: 60 * 60 * 1000,
-      crime: 2 * 20 * 20 * 1000,
+      work: 30 * 60 * 1000,
+      crime: 2 * 10 * 10 * 1000,
       rob: 4 * 20 * 20 * 1000,
     },
 
