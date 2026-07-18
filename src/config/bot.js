@@ -172,33 +172,33 @@ export const botConfig = {
     startingBalance: 0,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 67000000000000000000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 67,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 67,
+    workMax: 670,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 1,
+    begMax: 10,
 
     // Command cooldowns (milliseconds).
     cooldowns: {
       daily: 24 * 60 * 60 * 1000,
       work: 60 * 60 * 1000,
-      crime: 2 * 60 * 60 * 1000,
-      rob: 4 * 60 * 60 * 1000,
+      crime: 2 * 20 * 20 * 1000,
+      rob: 4 * 20 * 20 * 1000,
     },
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 6.7,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
-    robFailJailTime: 3600000,
+    robFailJailTime: 6700000,
   },
 
   // =========================
